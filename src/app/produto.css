@@ -1,0 +1,80 @@
+
+.produto {
+    width: 700px;
+    height: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 35px;
+    background-color: white; 
+    display: inline-block;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.conteudo {
+    display: flex; 
+    align-items: center; 
+    margin: 50px
+    
+}
+
+.icon-user {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.InfoProd {
+    margin-right: 30%;
+    text-align: left;
+}
+.InfoProd h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.checkbox {
+    display: none; /* Oculta o checkbox */
+}
+
+.checkbox:checked + label::before {
+    content: 'X'; /* Adiciona o texto 'X' */
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    font-size: 110px; /* Aumenta o tamanho do X */
+    align-items: center; 
+    color: rgba(0, 0, 0, 0.3); /* Cor do X preto */
+}
+
+.checkbox + label {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    background-color: #b7b7b7;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra interna */
+}
+
+.links {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Corrigindo a propriedade para "justify-content" */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; /* Centraliza os links horizontalmente */
+    margin-top: 40px; /* Espaçamento superior */
+    margin-bottom: 130px;
+}

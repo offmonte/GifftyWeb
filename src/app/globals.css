@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #b7b7b7;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.bkg {
+  background-color: #b7b7b7;
+  width: 100vw; /* 100% da largura da viewport */
+  height: 100vh; /* 100% da altura da viewport */
+  padding-top: 150px;
+  display: flex;
+  justify-content: center; 
+}
+.icon {
+  width: 100px;
+  margin-right: 10px;
+}
